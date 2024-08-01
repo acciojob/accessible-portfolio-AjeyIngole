@@ -1,2 +1,42 @@
 
 /* Your CSS Code here. */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Heading -->
+    <h1 role="heading">Welcome to My Accessible Portfolio</h1>
+    
+    <!-- Navigation Bar -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Image -->
+    <img src="profile.jpg" alt="Profile picture of the portfolio owner" role="img">
+    
+    <!-- Brief Description -->
+    <section role="document">
+        <p>Hi, I'm Alex! I'm a web developer with a passion for creating accessible and user-friendly websites. Feel free to explore my portfolio and learn more about my projects and skills.</p>
+    </section>
+    
+    <!-- List of Skills -->
+    <section role="document">
+        <h2 role="heading">Skills</h2>
+        <ul role="list">
+            <li role="listitem">HTML & CSS</li>
+            <li role="listitem">JavaScript</li>
+            <li role="listitem">Accessibility</li>
+        </ul>
+    </section>
+</body>
+</html>
